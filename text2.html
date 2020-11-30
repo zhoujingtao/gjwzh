@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        header {
+            width: 100%;
+            height: 150px;
+            font-size: 100px;
+            text-align: center;
+            background-image: image('images\text1.jpg');
+        }
+
+        #container {
+            width: 100%;
+            height: 500px;
+            position: relative;
+        }
+
+        nav {
+            width: 20%;
+            height: 90%;
+            background-image: image('images\text1.jpg');
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+
+        textarea {
+            height: 100%;
+            width: 90%;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            background: image('images\text1.jpg');
+            color: black;
+            top: 150px;
+        }
+
+        section {
+            width: 60%;
+            height: 180%;
+            font-size: 30px;
+            background-color: blanchedalmond;
+            position: absolute;
+            top: 0;
+            left: 20%;
+        }
+
+        p {
+            font-size: 30px;
+            color: blue;
+        }
+
+        aside {
+            width: 20%;
+            height: 100%;
+            background-image: image('images\text1.jpg');
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .demo-nav {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .demo-nav li {
+            line-height: 40px;
+            padding: 0 10px;
+            background-image: image("images\text1.jpg");
+            color: red;
+            position: relative;
+        }
+
+        .demo-nav {
+            position: absolute;
+            left: 0;
+            top: 40px;
+        }
+
+        .demo-nav li ul li {
+            float: none;
+            transition: all .3s;
+            background: #f90;
+            opacity: 0;
+        }
+
+        .demo-nav li ul li:nth-of-type(1n) {
+            transform: translate3d(100%, 0, 0);
+        }
+
+        .demo-nav li ul li:nth-of-type(2n) {
+            transform: translate3d(-100%, 0, 0);
+        }
+
+        .demo-nav li:hover ul li {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .demo-nav li ul li:nth-of-type(2) {
+            transition-delay: .1s;
+        }
+
+        .demo-nav li ul li:nth-of-type(3) {
+            transition-delay: .2s;
+        }
+
+        .demo-nav li ul li:nth-of-type(4) {
+            transition-delay: .3s;
+        }
+
+        .demo-nav li ul li:nth-of-type(5) {
+            transition-delay: .4s;
+        }
+
+        .demo-nav li ul li:nth-of-type(6) {
+            transition-delay: .5s;
+        }
+
+        .demo-nav li ul li:nth-of-type(7) {
+            transition-delay: .6s;
+        }
+
+        .demo-nav li ul li:nth-of-type(8) {
+            transition-delay: .7s;
+        }
+
+        .demo-nav li ul li:nth-of-type(9) {
+            transition-delay: .8s;
+        }
+
+        .demo-nav li ul li:nth-of-type(10) {
+            transition-delay: .9s;
+        }
+
+        footer {
+            width: 100%;
+            height: 150px;
+            top: 300%;
+            background-image: image('images\text3.jpg');
+        }
+
+        marquee {
+            font-size: 30px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body background="images\text1.jpg">
+    <header>鲁滨孙漂流记 简介</header>
+    <div id="container">
+        <nav></nav>
+        <section>
+            <p>网页制作者：周景涛</p>
+            <p>学号：201916180117</p>
+            <p>前一位同学：汤清 男 性格比较直爽</p>
+            <p>后一位同学：陈嘉宇 男 性格比较豪迈</p>
+            <li>摘要：笛福是18世纪英国著名小说家，被誉为“英国和欧洲小说之父”，《鲁滨逊漂流记》是他晚年的作品，也是荒岛文学的代表作，在世界文学范围内，它塑造了第一个资产阶级正面的形象，是一部现实主义回忆录式的冒险小说。小说通过描写主人公鲁滨逊的漂流经历，体现出了鲁滨逊作为资产阶级的所表现出来的勇敢、坚毅、智慧与勤劳的美德和追求自由，敢于冒险，创造精神和开拓的精神。同时也体现出了他作为资产者和殖民者，追求财富和剥削掠夺的本性。本文就分析主人公鲁滨逊在小说中不同的身份特征来探讨反映出的资本主义上升时期的时代特征。
+            </li>
+
+            <li>《鲁滨逊漂流记》是笛福受当时一个真实故事的启发而创作，以塞尔科克的传奇故事为蓝本，通过对真是故事的创造加工，塑造了一个更为理想化的主人公―鲁宾逊。正因为以真实的故事为原形，使得整部小说有着强大的吸引力。鲁滨逊的28年荒岛生活似乎是脱离了他曾生活的文明社会，但是我们仍然可以在他的荒岛生活中看到当时的一些社会特征。每一部伟大的作品都离不开当时的社会背景，而小说中的荒岛是现实社会的缩影，而鲁滨逊则是资产阶级的典型代表。他对社会资本和社会资源的欲望使得他不断的开拓，不断强大，正如几代人不断努力换来的资产阶级原始资本积累到后来的殖民扩张。分析主人公自身的发展历程，探讨鲁滨逊的性格形成、身份转变，可以反映出作者本身的政治主张以及英国当时的社会环境。
+            </li>
+            <li><img src="images\text5.jpg" alt="" height="400px" ;width="400px"> <img src="images\text8.jpg" alt=""
+                    height="400px" ;width="400px"> <img src="images\text6.jpg" alt="" height="400px" ;width="400px">
+            </li>
+        </section>
+        <aside></aside>
+    </div>
+    <nav>
+        <textarea name="" id="" cols="30" rows="10">
+  鲁滨孙出身于一个体面的商人家庭，渴望航海，一心想去海外见识一番。他瞒着父亲出海，第一次航行就遇到大风浪，船只沉没，他好不容易才逃出保住性命。第二次出海到非洲经商，赚了一笔钱。第三次又遭不幸，被摩尔人俘获，当了奴隶。后来他划了主人的小船逃跑，途中被一艘葡萄牙货船救起。船到巴西后，他在那里买下一个庄园，做了庄园主。他不甘心于这样的发财致富，又再次出海，到非洲贩卖奴隶。
+
+  船在途中遇到风暴触礁，船上水手、乘客全部遇难，唯有鲁滨孙一个人幸存下来，只身飘流到一个杳无人烟的孤岛上。他用沉船的桅杆做了木筏，一次又一次地把船上的食物、衣服、枪支弹药、工具等运到岸上，并在小山边搭起帐篷定居下来。接着他用削尖的木桩在帐篷周围围上栅栏，在帐篷后的山洞凿洞居住。他用简单的工具制作桌、椅等家具，猎野味为食，饮溪里的水，度过了最初遇到的困难。
+                
+  他开始在岛上种植大麦和稻子，自制木臼、木杵、筛子，加工面粉，烘出了粗糙的面包。他捕捉并驯养野山羊，让其繁殖。他还制作陶器等等，保证了自己的生活需要。虽然这样，鲁滨孙一直没有放弃寻找离开孤岛的办法。他砍倒一棵大树，花了五六个月的时间做成了一只独木舟，但船实在太重，无法拖下海去，只好前功尽弃，重新另造一只小的。
+                
+  鲁滨孙在岛上独自生活了18年后，一天，他发现岛边海岸上都是人骨，生过火，原来外岛的一群野人曾在这里举行过人肉宴。鲁滨孙惊愕万分。此后他便一直保持警惕，更加留心周围的事物。直到第26年，岛上又来了一群野人，带着准备杀死、吃掉的俘虏。鲁滨孙发现后，救出了其中的一个。鲁滨孙救下那个野人的日子是星期五，所以把被救的土人取名为"星期五".此后，"星期五"成了鲁滨孙忠实的仆人和朋友。接着，鲁滨孙带着"星期五"救出了一个西班牙人和"星期五"的父亲。不久有条英国船在海岛附近停泊，发现船上的水手发生了叛乱，绑架了船长，把船长、大副等三人抛弃在岛上，鲁滨逊与"星期五"帮助船长制服了那帮水手，夺回了船只。他把那水手留在岛上，船长带着鲁滨孙"星期五"等离开荒岛回到英国。此时鲁滨孙已离家28年。他在英国结了婚，生了三个孩子。妻子死后，鲁滨孙又一次出海经商，路经他住过的荒岛，这时留在岛上的水手和西班牙人都已安家繁衍生息。鲁滨孙又送去新的移民，将岛上的土地分给他们，并留给他们各种日用必需品，满意地离开了小岛。
+                            </textarea>
+    </nav>
+    <aside>
+        <div class="demo-nav">
+            <ul class="menu fllil">
+                <li>背景
+                    <ul class="sub-menu">
+                        <li>英国资本主义大规模发展</li>
+                        <li>以塞尔克经历为原型</li>
+                    </ul>
+                </li>
+                <li>内容
+                    <ul class="sub-menu">
+                        <li>一.初尝航海的甘苦</li>
+                        <li>二.流落到无人岛上</li>
+                        <li>三.我的日记 </li>
+                        <li>四.与世隔绝的生涯 </li>
+                        <li>五.环岛航行遇险</li>
+                        <li>六.发现人类足迹</li>
+                        <li>七.可怕的食人族 </li>
+                        <li>八.一只遇难的船</li>
+                        <li>九.救出星期五</li>
+                        <li>十.语言教育</li>
+                        <li>十一.海边的恶战</li>
+                        <li>十二.我看见了英国船</li>
+                        <li>十三.我是胜利的总督</li>
+                        <li>十四.重返文明世界</li>
+                    </ul>
+                </li>
+                <li>作者简介
+                    <ul class="sub-menu">
+                        <li>丹尼尔 笛福</li>
+                        <li>英国作家</li>
+                        <li>欧洲的“小说之父”</li>
+                        <li>代表作：鲁滨孙漂流记</li>
+                    </ul>
+                </li>
+                <li>人物——鲁滨孙
+                    <ul class="sub-menu">
+                        <li>英国中产阶级家庭</li>
+                        <li>顽强意志力</li>
+                        <li>冒险家</li>
+                        <li>乐观积极，敢于创新</li>
+                        <li>敢于追求自由</li>
+                    </ul>
+                </li>
+                <li>人物——星期五
+                    <ul class="sub-menu">
+                        <li>野人</li>
+                        <li>被鲁滨孙救</li>
+                        <li>忠诚有责任心</li>
+                        <li>知恩图报</li>
+                        <li>适应能力强</li>
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </aside>
+    <footer>
+
+        <li><a href="http://www.sflep.com/">出版社：上海外语教育出版社</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.sflep.com/">出版社：上海外语教育出版社</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <li><a href="http://www.odbsh.com/?ZT=1246CS">出版社：天津科技翻译出版公司</a></li>
+        <li><a href="http://www.tadu.com/book/1476/?rsp_7=ab3e5a4404bd159de918baa932098b08">在线阅读</a></li>
+        <marquee direction="right" behavior="alternate" scrollamount="18" loop="-1">鲁滨逊漂流记</marquee>
+        <li><img src="images\text4.jpg" alt="" height="500px;width=" 500px"></li>
+</body>
+</footer>
+</body>
+
+</html>
