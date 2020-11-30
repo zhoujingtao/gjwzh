@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        header {
+            width: 100%;
+            height: 150px;
+            font-size: 100px;
+            text-align: center;
+            background-image: image('images\text1.jpg');
+        }
+
+        #container {
+            width: 100%;
+            height: 500px;
+            position: relative;
+        }
+
+        nav {
+            width: 20%;
+            height: 90%;
+            background-image: image('images\text1.jpg');
+            position: absolute;
+            top: 10%;
+            left: 0;
+        }
+
+        textarea {
+            height: 100%;
+            width: 90%;
+            font-size: 20px;
+            font-style: italic;
+            font-weight: bold;
+            background: image('images\text1.jpg');
+            color: black;
+            top: 150px;
+        }
+
+        section {
+            width: 60%;
+            height: 180%;
+            font-size: 30px;
+            background-color: blanchedalmond;
+            position: absolute;
+            top: 0;
+            left: 20%;
+        }
+
+        p {
+            font-size: 30px;
+            color: blue;
+        }
+
+        aside {
+            width: 20%;
+            height: 100%;
+            background-image: image('images\text1.jpg');
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        .demo-nav {
+            width: 500px;
+            margin: 0 auto;
+        }
+
+        .demo-nav li {
+            line-height: 40px;
+            padding: 0 10px;
+            background-image: image("images\text1.jpg");
+            color: red;
+            position: relative;
+        }
+
+        .demo-nav {
+            position: absolute;
+            left: 0;
+            top: 40px;
+        }
+
+        .demo-nav li ul li {
+            float: none;
+            transition: all .3s;
+            background: #f90;
+            opacity: 0;
+        }
+
+        .demo-nav li ul li:nth-of-type(1n) {
+            transform: translate3d(100%, 0, 0);
+        }
+
+        .demo-nav li ul li:nth-of-type(2n) {
+            transform: translate3d(-100%, 0, 0);
+        }
+
+        .demo-nav li:hover ul li {
+            opacity: 1;
+            transform: translate3d(0, 0, 0);
+        }
+
+        .demo-nav li ul li:nth-of-type(2) {
+            transition-delay: .1s;
+        }
+
+        .demo-nav li ul li:nth-of-type(3) {
+            transition-delay: .2s;
+        }
+
+        .demo-nav li ul li:nth-of-type(4) {
+            transition-delay: .3s;
+        }
+
+        .demo-nav li ul li:nth-of-type(5) {
+            transition-delay: .4s;
+        }
+
+        .demo-nav li ul li:nth-of-type(6) {
+            transition-delay: .5s;
+        }
+
+        .demo-nav li ul li:nth-of-type(7) {
+            transition-delay: .6s;
+        }
+
+        .demo-nav li ul li:nth-of-type(8) {
+            transition-delay: .7s;
+        }
+
+        .demo-nav li ul li:nth-of-type(9) {
+            transition-delay: .8s;
+        }
+
+        .demo-nav li ul li:nth-of-type(10) {
+            transition-delay: .9s;
+        }
+
+        footer {
+            width: 100%;
+            height: 150px;
+            top: 300%;
+            background-image: image('images\text3.jpg');
+        }
+
+        marquee {
+            font-size: 30px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body background="images\text1.jpg">
+    <header>臭豆腐 简介</header>
+    <div id="container">
+        <nav></nav>
+        <section>
+            <p>网页制作者：周景涛</p>
+            <p> 我是长沙本地人，大家看到的我的内在就像
+            我的外表一样，敦厚和实在是我对自己最好的概括。</p>
+            <p>学号：201916180117</p>
+            <p>前一位同学：汤清(201916180116) 男 性格比较直爽</p>
+            <p>后一位同学：陈嘉宇(201916180118) 男 性格比较豪迈</p>
+            <li>基本信息：臭豆腐（Stinky tofu）是中国传统特色小吃之一，在各地的制作方式、食用方法均有相当大的差异，有北方和南方的不同类型，臭豆腐在南方又称臭干子。其名虽俗气、却外陋内秀、平中见奇、源远流长，是一种极具特色的中华传统小吃，古老而传统，令人欲罢不能。制作材料有大豆、豆豉、纯碱等。臭豆腐“闻着臭”是因为豆腐在发酵腌制和后发酵的过程中，其中所含蛋白质在蛋白酶的作用下分解，所含的硫氨基酸也充分水解，产生一种叫硫化氢（H2S）的化合物，这种化合物具有刺鼻的臭味。 在蛋白质分解后，即产生氨基酸，而氨基酸又具有鲜美的滋味，故“吃着香”。
+                臭豆腐闻起来臭、吃起来香，有些人对它敬而远之，有些人则将吃它当成了一种嗜好。其实，臭豆腐属于发酵豆制品，制作过程中不仅会产生一定的腐败物质，还容易受到细菌污染，从健康角度考虑，还是少吃为妙。
+            </li>
+
+            <li> 
+            </li>
+            <li><img src="images/ms1.jpg" alt="" height="400px" ;width="400px"> <img src="images/ms2.gif" alt=""
+                    height="400px" ;width="400px"> <img src="images/ms3.jpg" alt="" height="400px" ;width="400px">
+            </li>
+        </section>
+        <aside></aside>
+    </div>
+    <nav>
+        <textarea name="" id="" cols="30" rows="10">
+            过去，臭豆腐普遍被认为是“不健康”的食物，如今，却摇身一变成了好东西。据台湾《康健》杂志报道，臭豆腐中富含植物性乳酸菌，具有很好的调节肠道及健胃功效。
+臭豆腐以优质黄豆为原料。制作工艺较为复杂，黄豆经过筛选、脱壳、浸泡、磨浆、过滤、煮浆、点浆、成型、划块、发酵十道工序。呈贡臭豆腐质地软滑，散发异香。先人赞誉云：“味之有余美，玉食勿与传”。它不仅有很高的营养价值，而且有较好的药用价值。古医书记载，臭豆腐可以寒中益气，和脾胃，消胀痛，清热散血，下大肠浊气。常食者，能增强体质，健美肌肤。
+该报道称，臭豆腐中含有植物性乳酸菌，跟酸奶中的一样。有“植物性乳酸菌研究之父”之称的日本东京农业大学冈田早苗教授发现，臭豆腐、泡菜等食品当中，含有高浓度的植物杀菌物质，包括单宁酸、植物碱等，而植物性乳酸菌在肠道中的存活率比动物性乳酸菌高。
+臭豆腐分臭豆腐干和臭豆腐乳两种，都是很流行的小吃。臭豆腐虽小，但制作流程却比较复杂，一般经过油炸、加卤和发酵等几道程序，在整个制作过程中，要求一直在自然条件下进行，对温度和湿度的要求非常高。北京食品酿造研究所所长鲁绯告诉记者，它的原料豆腐干本来就是营养价值很高的豆制品，蛋白质含量达15%—20%，与肉类相当，同时含有丰富的钙质。经过发酵后，蛋白质分解为各种氨基酸，又产生了酵母等物质，所以有增进食欲，促进消化的功效。臭豆腐乳其饱和脂肪含量很低，又不含胆固醇，还含有大豆中特有的保健成分——大豆异黄酮，因此被称为中国的“素奶酪”，它的营养价值甚至比奶酪还高。吃臭豆腐，对预防老年痴呆还有积极作用。一项科学研究表明，臭豆腐一经制成，营养成分最显著的变化是合成了大量维生素B12。每100克臭豆腐可含有10微克左右。缺乏维生素B12可以加速大脑老化进程，从而诱发老年痴呆。而除动物性食物，如肉、蛋、奶、鱼、虾含有较多维生素B12外，发酵后的豆制品也可产生大量维生素B12，尤其是臭豆腐含量更高。全国各地的臭豆腐经营都以“不臭不要钱”为称，有分析表明：姿色愈佳的美女愈钟意吃臭豆腐。臭豆腐配方佐料里有某些调味品适量吃点是对身体有好处的。譬如辣椒（精制，湖南特产）等诸多调料，适量吃是有好处的。有资料表明：辣椒进入人体以后，可以增加人体内肠胃蠕动，从而促进人体内新陈代谢，使人排便通畅，神清气爽。辣椒里还含有丰富的维生素C而维生素C是维持人体内免疫系统的主要成份。相信许多人也深有体会（喜欢吃辣椒的人比不中意吃辣椒的人的感冒次数明显要少的多）医学专家（营养）提醒，每天应补充足够富含维生素C的食品，如萝卜 青菜等等，但仍然不宜多食。
+研究证明，豆制品在发酵过程中会产生甲胺、腐胺、色胺等胺类物质以及硫化氢。它们具有一股特殊的臭味和很强的挥发性，多吃对健康并无益处。此外，胺类物质存放时间长了，还可能与亚硝酸盐作用，生成强致癌物亚硝胺。
+臭豆腐虽小，但制作流程却比较复杂，必须经过油炸、加卤和发酵等几道程序。在整个制作过程中，要求一直在自然条件下进行，而且对温度和湿度的要求非常高，一旦控制不好，很容易受到有害细菌的污染，轻者会引发人体胃肠道疾病，重者还会导致肉毒杆菌大量繁殖，产生一种有毒物质——肉毒毒素。这是一种嗜神经毒素，毒力极强，曾报道过的臭豆腐中毒事件，就是由这种毒素引起的的。
+                            </textarea>
+    </nav>
+    <aside>
+        <div class="demo-nav">
+            <ul class="menu fllil">
+                <li>主要食材
+                    <ul class="sub-menu">
+                        <li>大豆</li>
+                        <li>臭卤水</li>
+                    </ul>
+                </li>
+                <li>材料
+                    <ul class="sub-menu">
+                        <li>黄豆</li>
+                        <li>辣椒油</li>
+                        <li>茶油</li>
+                        <li>酱油 </li>
+                        <li>香菜</li>
+                        <li>醋</li>
+                        
+                    </ul>
+                </li>
+                <li>产地
+                    <ul class="sub-menu">
+                        <li>长沙</li>
+                        <li>南京</li>
+                        <li>武汉</li>
+                        <li>绍兴</li>
+                        <li>北京</li>
+                        <li>大悟</li>
+                        
+                    </ul>
+                </li>
+                <li>种类
+                    <ul class="sub-menu">
+                      <li>客家臭豆腐</li>
+                      <li>香辣臭豆腐</li>
+                      <li>清蒸臭豆腐</li>
+                      <li>麻辣臭豆腐</li>
+                      <li>毛豆煎臭豆腐</li>
+                      <li>肉酱蒸臭豆腐</li>
+                    </ul>
+                </li>
+                <li>优劣鉴定方法
+                    <ul class="sub-menu">
+                        <li>一看：看臭豆腐水黑否</li>
+                        <li>二闻：臭豆腐是否刺鼻</li>
+                        <li>三掰：看里面是否较白</li>
+                       
+                    </ul>
+                </li>
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </aside>
+    <footer>
+
+        <li><a href="https://uland.taobao.com/sem/tbsearch?refpid=mm_26632258_3504122_32538762&keyword=%E8%87%AD%E8%B1%86%E8%85%90%E5%8D%8A%E6%88%90%E5%93%81%E8%B4%AD%E4%B9%B0&clk1=bde2e42ed38109dd7a5bfe09fd99851d&upsId=bde2e42ed38109dd7a5bfe09fd99851d">淘宝购买</a></li>
+        <li><a href="https://p4psearch.1688.com/">阿里巴巴购买</a></li>
+        <li><a href="https://re.jd.com/search?keyword=%E8%87%AD%E8%B1%86%E8%85%90&keywordid=172207715218&re_dcp=202m0QjIIg==&traffic_source=100">京东购买</a></li>
+        <li><a href="https://www.cnhnb.com/gongying/2932996/">惠农网购买</a></li>
+        <li><a href="https://b2b.baidu.com/slist/043c1f0b73047a3d7f70716670730b3b">爱采购购买</a></li>
+        
+        <marquee direction="right" behavior="alternate" scrollamount="18" loop="-1">臭豆腐</marquee>
+        <li><img src="images/1.jpg" alt="" height="500px;width=" 500px"></li>
+</body>
+</footer>
+</body>
+
+</html>
